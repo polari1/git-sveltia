@@ -17,17 +17,16 @@ i18n:
   default_locale: finnish      # Keep this as is
 
 
+
 collections:
-  # Blog Posts Collection
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "content"
-    path: "{{locale}}/blog/{{slug}}"
-    extension: "md"
-    format: "frontmatter"
+  # Test with just English blog posts first
+  - name: "blog_test"
+    label: "Blog Test (English Only)"
+    folder: "content/english/blog"
     create: true
     slug: "{{slug}}"
-    i18n: true
+    extension: "md"
+    format: "frontmatter"
     fields:
       - {label: "Title", name: "title", widget: "string", i18n: true}
       - {label: "Date", name: "date", widget: "datetime", i18n: "duplicate"}
