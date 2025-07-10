@@ -1,6 +1,6 @@
 ---
 title: Trump kehui Liberian presidentin englannin kielen taitoa
-date: 2025-07-11T01:00:00
+date: 2024-07-11T01:00:00
 image_webp: https://images.sanoma-sndp.fi/77ee5509c565e13c9ca5a421e1a16236/normal/978.avif
 author: tunkero
 description: hdysvaltain presidentti Donald Trump kehui Liberian presidentti Joseph Boakain englannin kielen taitoa tämän vieraillessa Valkoisessa talossa Trump vaikutti yllättyneen Boakain englannin taidosta, vaikka englanti on Liberian virallinen kieli. Liberialla ja Yhdysvalloilla on pitkä yhteinen historia, sillä maan perustivat vapautetut afroamerikkalaiset orjat vuonna 1822.
