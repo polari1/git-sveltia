@@ -1,12 +1,11 @@
 ---
-title: "UX-suunnittelu Käytännössä"
-date: 2018-09-15T12:52:36+06:00
+title: UX-suunnittelu Käytännössä
+date: 2018-09-15T09:52:00
 image_webp: images/blog/blog-post-1.webp
-image: images/blog/blog-post-1.jpg
 author: Mark Dinn
-description : "Käyttäjäkokemuksen suunnittelun periaatteet ja parhaat käytännöt"
+description: Käyttäjäkokemuksen suunnittelun periaatteet ja parhaat käytännöt
+image: images/blog/blog-post-1.jpg
 ---
-
 Käyttäjäkokemus (UX) on ratkaiseva tekijä digitaalisten tuotteiden menestykselle. Hyvä UX-suunnittelu tekee tuotteista helppokäyttöisiä, tehokkaita ja miellyttäviä.
 
 ## UX-suunnittelun periaatteet
