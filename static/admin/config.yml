@@ -13,8 +13,8 @@ public_folder: "/images"
 # i18n configuration for multilingual support
 i18n:
   structure: multiple_folders
-  locales: [en, fi]
-  default_locale: en
+  locales: [english, finnish]
+  default_locale: finnish
 
 collections:
   # Blog Posts Collection
