@@ -1,12 +1,11 @@
 ---
-title: "Tekoäly Liiketoiminnassa"
-date: 2018-09-16T12:52:36+06:00
+title: Tekoäly Liiketoiminnassa
+date: 2018-09-16T09:52:00
 image_webp: images/blog/blog-post-2.webp
-image: images/blog/blog-post-2.jpg
 author: John Doe
-description : "Miten tekoäly muuttaa liiketoimintaa ja työelämää"
+description: Miten tekoäly muuttaa liiketoimintaa ja työelämää
+image: images/blog/blog-post-2.jpg
 ---
-
 Tekoäly (AI) ei ole enää tulevaisuuden teknologiaa - se on tänään reaalisuutta monissa yrityksissä. Katsomme, miten AI vaikuttaa eri toimialoihin ja mitä mahdollisuuksia se tarjoaa.
 
 ## AI:n sovellukset liiketoiminnassa
