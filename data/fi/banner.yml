@@ -1,12 +1,11 @@
-############################### Banner ################################
 banner:
-  enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
-  icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Tervetuloa juuri.ai"
-  content : "Koe tehokas monikielinen Hugo-sivusto suomen ja englannin kielituella. Rakennettu kauniilla Meghna-teemalla ja optimoitu nykyaikaisille web-standardeille."
+  enable: true
+  bg_image_webp: images/backgrounds/hero-area.webp
+  bg_image: images/backgrounds/hero-area.jpg
+  icon: ''
+  title: Tervetuloa juuri.ai
+  content: Myyrmäki on aina aiemmin ollut Vantaan kolmen vetovoimaisimman kaupunginosan listalla. Nyt se putosi huhtikuun ja kesäkuun välisenä aikana vasta Vantaan 5. halutuimmaksi asuinpaikaksi.
   button:
-    enable : true
-    label : "Tutustu ominaisuuksiin"
-    link : "#services"
+    enable: true
+    label: Tutustu ominaisuuksiin
+    link: '#services'
