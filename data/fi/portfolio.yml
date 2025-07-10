@@ -1,0 +1,76 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : Töimme
+  portfolio_item :
+    # portfolio item loop
+    - name : Tunnisteen suunnittelu
+      image : images/portfolio/portfolio-1.jpg
+      image_webp : images/portfolio/portfolio-1.webp
+      categories : ["design"]
+      content : Luova ja moderni tunnisteen suunnittelu, joka erottuu joukosta.
+      link : "https://themefisher.com"
+      
+    # portfolio item loop
+    - name : Äänijärjestelmä
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["development"]
+      content : Teknologisesti edistynyt äänijärjestelmä räätälöidyillä ominaisuuksilla.
+      link : ""
+      
+    # portfolio item loop
+    - name : Kello-tuote
+      image : images/portfolio/portfolio-3.jpg
+      image_webp : images/portfolio/portfolio-3.webp
+      categories : ["design", "development"]
+      content : Elegantti kellomalli, jossa yhdistyy muotoilu ja toiminnallisuus.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Pullon etiketti
+      image : images/portfolio/portfolio-4.jpg
+      image_webp : images/portfolio/portfolio-4.webp
+      categories : ["photography", "development"]
+      content : Silmiinpistävä etikettisuunnittelu premiumtuotteelle.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Ostoskassi
+      image : images/portfolio/portfolio-5.jpg
+      image_webp : images/portfolio/portfolio-5.webp
+      categories : ["design"]
+      content : Ekologinen ja tyylikäs ostoskassisuunnittelu.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Tagi-suunnittelu
+      image : images/portfolio/portfolio-6.jpg
+      image_webp : images/portfolio/portfolio-6.webp
+      categories : ["photography"]
+      content : Ammattimaisesti kuvattu tuotekokonaisuus.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Käyntikortti
+      image : images/portfolio/portfolio-7.jpg
+      image_webp : images/portfolio/portfolio-7.webp
+      categories : ["development"]
+      content : Ainutlaatuinen käyntikorttisarja yritysilmeellä.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Paperitavaroiden suunnittelu
+      image : images/portfolio/portfolio-8.jpg
+      image_webp : images/portfolio/portfolio-8.webp
+      categories : ["design", "development"]
+      content : Yhtenäinen paperitavara-sarja yrityksen visuaalisen ilmeen mukaan.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Tagi-suunnittelu
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["design", "photography"]
+      content : Luova ja visuaalisesti vaikuttava tuotetagi.
+      link : "#"

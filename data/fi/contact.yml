@@ -1,0 +1,31 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Ota yhteyttä
+  subtitle : Yhteystiedot
+  content : Olemme valmiita auttamaan sinua seuraavassa projektissasi. Ota rohkeasti yhteyttä, niin keskustellaan miten voimme auttaa liiketoimintasi kasvussa ja digitaalisen muutoksen toteuttamisessa.
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Esplanadi 15, 00100 Helsinki, Suomi"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Puhelin: +358-40-123-4567"
+      
+    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+      info : "Faksi: +358-9-123-4567"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Sähköposti: hei@meghna.fi"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Nimesi"
+    email : "Sähköpostiosoitteesi"
+    subject : "Aihe"
+    message : "Viesti"
+    submit : "Lähetä"

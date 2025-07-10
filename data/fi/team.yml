@@ -1,0 +1,68 @@
+############################### team ############################
+team:
+  enable : true
+  title : Tiimimme
+  team_member :
+    # team member loop
+    - name : Matti Virtanen
+      image_webp : images/team/team-1.webp
+      image : images/team/team-1.jpg
+      designation : Toimitusjohtaja/Perustaja
+      content : Innovatiivinen johtaja, jolla on yli 15 vuoden kokemus teknologia-alalta. Visionääri, joka ohjaa yritystä kohti tulevaisuutta.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - name : Anna Korhonen
+      image_webp : images/team/team-2.webp
+      image : images/team/team-2.jpg
+      designation : Projektipäällikkö
+      content : Kokenut projektinhallinnon ammattilainen, joka varmistaa että projektit valmistuvat ajallaan ja budjetissa. Organisoinnin mestari.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - name : Jukka Laitinen
+      image_webp : images/team/team-3.webp
+      image : images/team/team-3.jpg
+      designation : Web-kehittäjä
+      content : Full-stack kehittäjä, joka osaa niin frontendin kuin backendin. Passionate koodari, joka rakastaa uusien teknologioiden oppimista.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - name : Sari Nieminen
+      image_webp : images/team/team-4.webp
+      image : images/team/team-4.jpg
+      designation : SEO-asiantuntija
+      content : Digitaalisen markkinoinnin guru, joka nostaa verkkosivustoja hakutulosten kärkeen. Datan ja analytiikan taitaja.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"

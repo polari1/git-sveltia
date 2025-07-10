@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on juuri.ai</title>
+    <link>http://localhost:1313/author/</link>
+    <description>Recent content in Authors on juuri.ai</description>
+    <generator>Hugo</generator>
+    <language>fi-fi</language>
+    <copyright>Copyright &amp;copy; 2025 juuri.ai. Kaikki oikeudet pidätetään.</copyright>
+    <atom:link href="http://localhost:1313/author/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>John Doe</title>
+      <link>http://localhost:1313/author/john-doe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/author/john-doe/</guid>
+      <description>&lt;p&gt;John on kokenut web-kehittäjä, jolla on yli 10 vuoden kokemus modernista verkkokehityksestä. Hän on erikoistunut React- ja Node.js-teknologioihin ja rakastaa jakaa tietämystään teknisista aiheista blogikirjoitustensa kautta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mark Dinn</title>
+      <link>http://localhost:1313/author/mark-dinn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/author/mark-dinn/</guid>
+      <description>&lt;p&gt;Mark on digitaalisen markkinoinnin asiantuntija ja teknologia-alan kokenut kirjoittaja. Hän auttaa yrityksiä ymmärtämään digitaalisen muutoksen mahdollisuuksia ja kirjoittaa säännöllisesti alan trendeistä ja parhaista käytännöistä.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

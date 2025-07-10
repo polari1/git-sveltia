@@ -1,0 +1,27 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : Olemme digitaalinen suunnittelutoimisto.
+  content : "Yhdistämme luovuuden ja teknologian luodaksemme ainutlaatuisia digitaalisia kokemuksia, jotka auttavat yrityksiäsi menestymään verkossa."
+  feature_item : 
+      # feature item loop
+    - title : SEO-optimoitu
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Kaikki sivustomme on rakennettu hakukoneystävällisiksi, jotta asiakkaasi löytävät sinut helposti verkossa.
+      
+      # feature item loop
+    - title : Helppo mukauttaa
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Intuitiivinen hallintapaneeli tekee sisällön päivittämisestä vaivatonta ja nopeaa.
+
+      # feature item loop
+    - title : Analytiikka-optimoitu
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Seuraamme jatkuvasti sivuston suorituskykyä ja optimoimme tuloksia data-analyysin avulla.
+      
+      # feature item loop
+    - title : Responsiivinen muotoilu
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Sivustomme toimivat täydellisesti kaikilla laitteilla mobiilista työpöytään.

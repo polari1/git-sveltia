@@ -1,0 +1,26 @@
+################################# Testimonial #########################
+testimonial:
+  enable : true
+  bg_image : images/backgrounds/bg-testimonial.jpg
+  bg_image_webp : images/backgrounds/bg-testimonial.webp
+  testimonial_item :
+    # testimonial item loop
+    - name : Mikael Andersson
+      image : images/client/client-1.jpg
+      image_webp : images/client/client-1.webp
+      date : 26. joulukuuta 2018
+      content : Meghna-tiimi ylitti odotuksemme täysin. Heidän ammattitaitonsa ja sitoutumisensa projektiin oli erinomaista. Suosittelemme lämpimästi!
+      
+    # testimonial item loop
+    - name : Laura Hakkarainen
+      image : images/client/client-2.jpg
+      image_webp : images/client/client-2.webp
+      date : 15. tammikuuta 2019
+      content : Saimme juuri sen mitä tarvitsimme - modernin, toimivan verkkosivuston joka on nostanut myyntiämme merkittävästi. Kiitos erinomaisesta työstä!
+      
+    # testimonial item loop
+    - name : Tommi Rautiainen
+      image : images/client/client-1.jpg
+      image_webp : images/client/client-1.webp
+      date : 8. helmikuuta 2019
+      content : Asiakaspalvelu on huippuluokkaa ja tekninen toteutus oli moitteetonta. Projektimme valmistui ajallaan ja budjetissa. Loistava kokemus!

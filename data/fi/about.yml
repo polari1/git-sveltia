@@ -1,0 +1,16 @@
+############################# About ###################################
+about:
+  enable : true
+  title : Tietoa meistä
+  about_item :
+  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+    title : Olemme luovia
+    content : Luovuus on toimintamme ydin. Kehitämme innovatiivisia ratkaisuja, jotka erottuvat markkinoilla ja tuottavat lisäarvoa asiakkaillemme.
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : Olemme ammattilaisia
+    content : Kokenut tiimimme tuo vuosien asiantuntemuksen jokaiseen projektiin. Sitoudumme korkeaan laatuun ja täsmällisiin aikatauluihin.
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : Olemme neroja
+    content : Älykäs ajattelu ja strateginen lähestymistapa auttavat meitä löytämään parhaat ratkaisut monimutkaisiin haasteisiin.

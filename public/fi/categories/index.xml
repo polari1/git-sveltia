@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on SuperSiteTest</title>
+    <link>http://localhost:42593/fi/categories/</link>
+    <description>Recent content in Categories on SuperSiteTest</description>
+    <generator>Hugo</generator>
+    <language>fi-fi</language>
+    <copyright>Copyright &amp;copy; 2025 SuperSiteTest. Kaikki oikeudet pidätetään.</copyright>
+    <atom:link href="http://localhost:42593/fi/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
