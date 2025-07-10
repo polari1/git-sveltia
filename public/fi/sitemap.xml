@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-07-10T23:22:00+00:00</lastmod>
+    <lastmod>2023-07-11T23:22:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-10T23:22:00+00:00</lastmod>
+    <lastmod>2023-07-11T23:22:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -28,8 +28,14 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
+    <loc>http://localhost:1313/blog/uusi-postaus/</loc>
+    <lastmod>2023-07-11T23:22:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/uusi-posti/</loc>
+    <lastmod>2023-07-10T23:13:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/china-surveys-seabeds-where-naval-rivals-may-one-day-clash/</loc>
-    <lastmod>2025-07-10T16:43:00+00:00</lastmod>
+    <lastmod>2023-07-10T16:43:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"

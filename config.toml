@@ -13,6 +13,8 @@ summaryLength = "15"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language - disable French to keep only Finnish and English
 disableLanguages = ["fr"]
+# allow future dates in blogs for example 
+buildFuture = true 
 
 ############################# Plugins ##########################
 # css plugins
