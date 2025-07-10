@@ -1,12 +1,11 @@
 ---
-title: "Moderni Verkkokehitys"
-date: 2018-09-13T12:52:36+06:00
+title: Moderni Verkkokehitys
+date: 2018-09-13T09:52:00
 image_webp: images/blog/blog-post-1.webp
-image: images/blog/blog-post-1.jpg
 author: Mark Dinn
-description : "Oppimateriaali modernista verkkokehityksestä"
+description: Oppimateriaali modernista verkkokehityksestä
+image: images/blog/blog-post-1.jpg
 ---
-
 Verkkokehitys on nopeasti kehittyvä ala, jossa uusia teknologioita ja työkaluja tulee jatkuvasti markkinoille. Tässä artikkelissa käymme läpi tärkeimmät trendit ja teknologiat, jotka jokaisen kehittäjän tulisi tuntea.
 
 ## Frontend-kehityksen trendit
