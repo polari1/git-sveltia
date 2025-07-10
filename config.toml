@@ -180,7 +180,7 @@ link = "#"
 [Languages.en]
 languageName = "English"
 languageCode = "en-us"
-contentDir = "content/en"
+contentDir = "content/english"  # Changed from "content/en"
 weight = 1
 home = "Home"
 copyright = "Copyright &copy; 2025 juuri.ai. All rights reserved."
@@ -189,7 +189,7 @@ copyright = "Copyright &copy; 2025 juuri.ai. All rights reserved."
 [Languages.fi]
 languageName = "Suomi"
 languageCode = "fi-fi"
-contentDir = "content/fi"
+contentDir = "content/finnish"  # Changed from "content/fi"
 weight = 2
 home = "Koti"
 copyright = "Copyright &copy; 2025 juuri.ai. Kaikki oikeudet pidätetään."

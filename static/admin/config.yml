@@ -13,15 +13,15 @@ public_folder: "/images"
 # i18n configuration for multilingual support
 i18n:
   structure: multiple_folders
-  locales: [en, fi]
-  default_locale: finnish
+  locales: [english, finnish]  # Changed from [en, fi]
+  default_locale: finnish      # Changed from "finnish" to match locale
 
 collections:
   # Blog Posts Collection
   - name: "blog"
     label: "Blog Posts"
     folder: "content"
-    path: "{{locale}}/blog/{{slug}}"
+    path: "{{locale}}/blog/{{slug}}"  # This will now create content/english/blog/ and content/finnish/blog/
     create: true
     slug: "{{slug}}"
     i18n: true
@@ -38,7 +38,7 @@ collections:
   - name: "authors"
     label: "Authors"
     folder: "content"
-    path: "{{locale}}/author/{{slug}}"
+    path: "{{locale}}/author/{{slug}}"  # This will now create content/english/author/ and content/finnish/author/
     create: true
     slug: "{{slug}}"
     i18n: true
