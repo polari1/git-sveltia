@@ -5,6 +5,7 @@ backend:
   name: github
   repo: polari1/git-sveltia
   branch: main
+  auth_endpoint: https://api.netlify.com/auth
 
 media_folder: "static/images"
 public_folder: "/images"
