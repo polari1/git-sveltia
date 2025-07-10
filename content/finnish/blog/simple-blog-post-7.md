@@ -1,12 +1,11 @@
 ---
-title: "Pilvipalvelut ja DevOps"
-date: 2018-09-18T12:52:36+06:00
+title: Pilvipalvelut ja DevOps
+date: 2018-09-18T09:52:00
 image_webp: images/blog/blog-post-1.webp
-image: images/blog/blog-post-1.jpg
 author: John Doe
-description : "Pilvipalvelujen ja DevOps-kulttuurin vaikutus ohjelmistokehitykseen"
+description: Pilvipalvelujen ja DevOps-kulttuurin vaikutus ohjelmistokehitykseen
+image: images/blog/blog-post-1.jpg
 ---
-
 Pilvipalvelut ja DevOps-metodologiat ovat mullistaneet tavan, jolla ohjelmistoja kehitetään ja ylläpidetään. Nämä teknologiat mahdollistavat nopeamman ja luotettavamman kehityksen.
 
 ## Pilvipalvelujen edut
