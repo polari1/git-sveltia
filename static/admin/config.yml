@@ -8,13 +8,23 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  # Test with just ONE file to see if it works
-  - name: "test_single"
-    label: "Test Single File"
+  # English Blog Posts (Individual Files)
+  - name: "blog_english"
+    label: "Blog Posts (English)"
     files:
-      - label: "Test Post"
-        name: "test_post"
-        file: "content/english/blog/test-sveltia.md"
+      - label: "Installation Guide"
+        name: "installation"
+        file: "content/english/blog/installation.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Author", name: "author", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      
+      - label: "Simple Blog Post 1"
+        name: "simple_post_1"
+        file: "content/english/blog/simple-blog-post-1.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Date", name: "date", widget: "datetime"}
