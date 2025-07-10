@@ -1,12 +1,11 @@
 ---
-title: "Kyberturvallisuus 2025"
-date: 2018-09-17T12:52:36+06:00
+title: Kyberturvallisuus 2025
+date: 2018-09-17T09:52:00
 image_webp: images/blog/blog-post-3.webp
-image: images/blog/blog-post-3.jpg
 author: Mark Dinn
-description : "Kyberturvallisuuden haasteet ja ratkaisut tulevaisuudessa"
+description: Kyberturvallisuuden haasteet ja ratkaisut tulevaisuudessa
+image: images/blog/blog-post-3.jpg
 ---
-
 Kyberturvallisuus on entistä tärkeämpää digitalisoituvassa maailmassa. Uhkakuva kehittyy jatkuvasti, ja organisaatioiden on pysyttävä ajan tasalla.
 
 ## Nykyiset uhkat
