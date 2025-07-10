@@ -1,12 +1,11 @@
 ---
-title: "Kestävä Teknologia"
-date: 2018-09-19T12:52:36+06:00
+title: Kestävä Teknologia
+date: 2018-09-19T09:52:00
 image_webp: images/blog/blog-post-2.webp
-image: images/blog/blog-post-2.jpg
 author: Mark Dinn
-description : "Ympäristöystävällinen teknologia ja vastuullinen kehitys"
+description: Ympäristöystävällinen teknologia ja vastuullinen kehitys
+image: images/blog/blog-post-2.jpg
 ---
-
 Teknologiateollisuuden ympäristövaikutukset ovat kasvava huolenaihe. Kestävä teknologia ja vihreä IT ovat nousemassa tärkeiksi kilpailutekijöiksi.
 
 ## Energiatehokkuus
