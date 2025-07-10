@@ -5,6 +5,7 @@ backend:
   name: github
   repo: polari1/git-sveltia
   branch: main
+  client_id: Ov23liyDhZ6fiTvHYUbV
 
 media_folder: "static/images"
 public_folder: "/images"
