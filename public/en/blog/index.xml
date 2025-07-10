@@ -17,6 +17,13 @@
       <description>&lt;p&gt;China has entered a new era of ocean exploration. Its top leader, Xi Jinping, has pushed to make China a maritime power — with a world-class navy, the largest deep-sea fishing fleet, and an interest in extracting minerals from the seabed. He wants China’s research abilities to match those ambitions.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Test Post</title>
+      <link>http://localhost:1313/en/blog/test-sveltia/</link>
+      <pubDate>Fri, 10 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/test-sveltia/</guid>
+      <description>&lt;p&gt;This is a test post for Sveltia CMS.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Are You Doing the Right Way</title>
       <link>http://localhost:1313/en/blog/simple-blog-post-8/</link>
       <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>

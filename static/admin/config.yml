@@ -1,3 +1,4 @@
+# Sveltia CMS Configuration
 backend:
   name: github
   repo: polari1/git-sveltia
@@ -8,26 +9,164 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  # English Blog Posts (Individual Files)
+  # English Blog Posts
   - name: "blog_english"
     label: "Blog Posts (English)"
-    files:
-      - label: "Installation Guide"
-        name: "installation"
-        file: "content/english/blog/installation.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Date", name: "date", widget: "datetime"}
-          - {label: "Author", name: "author", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Body", name: "body", widget: "markdown"}
+    folder: "content/english/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    #format: "frontmatter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image (WebP)", name: "image_webp", widget: "image", required: false}
+      - {label: "Featured Image (JPG)", name: "image_jpg", widget: "image", required: false}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
       
-      - label: "Simple Blog Post 1"
-        name: "simple_post_1"
-        file: "content/english/blog/simple-blog-post-1.md"
+  # Finnish Blog Posts
+  - name: "blog_finnish"
+    label: "Blog Posts (Finnish)"
+    folder: "content/finnish/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    #format: "frontmatter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image (WebP)", name: "image_webp", widget: "image", required: false}
+      - {label: "Featured Image (JPG)", name: "image_jpg", widget: "image", required: false}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Authors - English
+  - name: "authors_english"
+    label: "Authors (English)"
+    folder: "content/english/author"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Profile Image", name: "image", widget: "image", required: false}
+      - {label: "Email", name: "email", widget: "string"}
+      - label: "Social Links"
+        name: "social"
+        widget: "list"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Date", name: "date", widget: "datetime"}
-          - {label: "Author", name: "author", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Icon", name: "icon", widget: "string", hint: "Themify icon class (e.g., ti-facebook)"}
+          - {label: "Link", name: "link", widget: "string"}
+      - {label: "Bio", name: "body", widget: "markdown"}
+
+  # Authors - Finnish
+  - name: "authors_finnish"
+    label: "Authors (Finnish)"
+    folder: "content/finnish/author"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Profile Image", name: "image", widget: "image", required: false}
+      - {label: "Email", name: "email", widget: "string"}
+      - label: "Social Links"
+        name: "social"
+        widget: "list"
+        fields:
+          - {label: "Icon", name: "icon", widget: "string", hint: "Themify icon class (e.g., ti-facebook)"}
+          - {label: "Link", name: "link", widget: "string"}
+      - {label: "Bio", name: "body", widget: "markdown"}
+
+  # Banner Data
+  - name: "banner_data"
+    label: "Banner Settings"
+    files:
+      - label: "English Banner"
+        name: "banner_en"
+        file: "data/en/banner.yml"
+        fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean", default: true}
+              - {label: "Background Image (WebP)", name: "bg_image_webp", widget: "image", required: false}
+              - {label: "Background Image (JPG)", name: "bg_image", widget: "image", required: false}
+              - {label: "Icon", name: "icon", widget: "string", required: false, hint: "Themify icon class"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "text"}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Enable Button", name: "enable", widget: "boolean", default: true}
+                  - {label: "Button Label", name: "label", widget: "string"}
+                  - {label: "Button Link", name: "link", widget: "string"}
+      
+      - label: "Finnish Banner"
+        name: "banner_fi"
+        file: "data/fi/banner.yml"
+        fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean", default: true}
+              - {label: "Background Image (WebP)", name: "bg_image_webp", widget: "image", required: false}
+              - {label: "Background Image (JPG)", name: "bg_image", widget: "image", required: false}
+              - {label: "Icon", name: "icon", widget: "string", required: false, hint: "Themify icon class"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "text"}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Enable Button", name: "enable", widget: "boolean", default: true}
+                  - {label: "Button Label", name: "label", widget: "string"}
+                  - {label: "Button Link", name: "link", widget: "string"}
+
+  # Services Data
+  - name: "service_data"
+    label: "Services Settings"
+    files:
+      - label: "English Services"
+        name: "service_en"
+        file: "data/en/service.yml"
+        fields:
+          - label: "Service"
+            name: "service"
+            widget: "object"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean", default: true}
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Service Items"
+                name: "service_item"
+                widget: "list"
+                fields:
+                  - {label: "Service Name", name: "name", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string", hint: "Themify icon class (e.g., ti-world)"}
+                  - {label: "Content", name: "content", widget: "text"}
+      
+      - label: "Finnish Services"
+        name: "service_fi"
+        file: "data/fi/service.yml"
+        fields:
+          - label: "Service"
+            name: "service"
+            widget: "object"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean", default: true}
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Service Items"
+                name: "service_item"
+                widget: "list"
+                fields:
+                  - {label: "Service Name", name: "name", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string", hint: "Themify icon class (e.g., ti-world)"}
+                  - {label: "Content", name: "content", widget: "text"}
