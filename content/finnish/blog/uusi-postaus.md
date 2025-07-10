@@ -6,7 +6,7 @@ author: mävaa
 description: Kritiikki Yhdysvaltain presidentti Donald Trumpia kohtaan venäläismediassa on kiristynyt hänen viimeaikaisten lausuntojensa myötä.
 image: images/backgrounds/bg-testimonial.jpg
 ---
-ue myös
+Lue myös
 
 [Trumpilta raivokas uhkaus: "Pommitan Moskovan paskaksi"](https://www.iltalehti.fi/ulkomaat/a/a6f00758-0fe1-42ff-8899-03eff2a7a805)
 
