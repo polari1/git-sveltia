@@ -1,12 +1,11 @@
 ---
-title: "Digitaalinen Markkinointi 2025"
-date: 2018-09-14T12:52:36+06:00
+title: Digitaalinen Markkinointi 2025
+date: 2018-09-14T09:52:00
 image_webp: images/blog/blog-post-2.webp
-image: images/blog/blog-post-2.jpg
 author: John Doe
-description : "Digitaalisen markkinoinnin tulevaisuus ja trendit"
+description: Digitaalisen markkinoinnin tulevaisuus ja trendit
+image: images/blog/blog-post-2.jpg
 ---
-
 Digitaalinen markkinointi kehittyy jatkuvasti, ja vuosi 2025 tuo mukanaan uusia mahdollisuuksia ja haasteita. Tässä artikkelissa tarkastelemme tärkeimpiä trendejä ja strategioita.
 
 ## Sosiaalisen median markkinointi
