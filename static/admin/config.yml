@@ -22,7 +22,9 @@ collections:
   - name: "blog"
     label: "Blog Posts"
     folder: "content"
-    path: "{{locale}}/blog/{{slug}}"  # Now this will correctly map to content/english/blog/ and content/finnish/blog/
+    path: "{{locale}}/blog/{{slug}}"
+    extension: "md"
+    format: "frontmatter"
     create: true
     slug: "{{slug}}"
     i18n: true
