@@ -1,12 +1,11 @@
 ---
-title: "Kuinka Asentaa Meghna Hugo"
-date: 2018-09-12T14:51:12+06:00
-author: Mark Dinn
+title: Kuinka Asentaa Meghna Hugo
+date: 2018-09-12T11:51:00
 image_webp: images/blog/meghna.webp
+author: Mark Dinn
+description: Tämä on meta-kuvaus
 image: images/blog/meghna.jpg
-description : "Tämä on meta-kuvaus"
 ---
-
 ## Asenna tämä malli seuraamalla näitä yksinkertaisia vaiheita:
 
 ### VAIHE-1 : Hugo asennus
@@ -23,12 +22,16 @@ hugo new site <uusi_projekti>
 ```
 
 ### VAIHE-3 : Asenna teema
+
 Aja tämä komento
+
 ```
 hugo new site meghna-hugo
 ```
-ja mene sitten themes-kansioon meghna-hugo kansion sisällä. Voit myös käyttää tätä komentoa ```cd meghna-hugo/themes``` mennäksesi tähän kansioon.
+
+ja mene sitten themes-kansioon meghna-hugo kansion sisällä. Voit myös käyttää tätä komentoa \`\`\`cd meghna-hugo/themes\`\`\` mennäksesi tähän kansioon.
 Aja sitten komento 
+
 ```
 git clone git@github.com:themefisher/meghna-hugo.git
 ```
@@ -76,7 +79,6 @@ hugo
 
 # Voit myös luoda minifoidun version käyttämällä tätä komentoa:
 hugo--minify
-
 ```
 
 `public` kansio luodaan, sisältäen kaiken staattisen sisällön ja resurssit verkkosivustollesi. Se voidaan nyt julkaista missä tahansa verkkopalvelimessa.
