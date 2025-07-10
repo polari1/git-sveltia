@@ -1,0 +1,471 @@
+.
+├── archetypes
+│   ├── default.md
+│   └── services.md
+├── assets
+│   ├── css
+│   │   ├── custom.css
+│   │   └── style.css
+│   └── js
+│       └── script.js
+├── config.toml
+├── content
+│   ├── english
+│   │   ├── author
+│   │   │   ├── john-doe.md
+│   │   │   └── mark-dinn.md
+│   │   └── blog
+│   │       ├── china-surveys-seabeds-where-naval-rivals-may-one-day-clash.md
+│   │       ├── installation.md
+│   │       ├── simple-blog-post-1.md
+│   │       ├── simple-blog-post-2.md
+│   │       ├── simple-blog-post-3.md
+│   │       ├── simple-blog-post-4.md
+│   │       ├── simple-blog-post-5.md
+│   │       ├── simple-blog-post-6.md
+│   │       ├── simple-blog-post-7.md
+│   │       ├── simple-blog-post-8.md
+│   │       └── Welcome to SuperSiteTest.md
+│   └── finnish
+│       ├── author
+│       │   ├── john-doe.md
+│       │   └── mark-dinn.md
+│       └── blog
+│           ├── china-surveys-seabeds-where-naval-rivals-may-one-day-clash.md
+│           ├── installation.md
+│           ├── simple-blog-post-1.md
+│           ├── simple-blog-post-2.md
+│           ├── simple-blog-post-3.md
+│           ├── simple-blog-post-4.md
+│           ├── simple-blog-post-5.md
+│           ├── simple-blog-post-6.md
+│           ├── simple-blog-post-7.md
+│           └── simple-blog-post-8.md
+├── data
+│   ├── en
+│   │   ├── about.yml
+│   │   ├── banner.yml
+│   │   ├── contact.yml
+│   │   ├── cta.yml
+│   │   ├── feature.yml
+│   │   ├── funfacts.yml
+│   │   ├── portfolio.yml
+│   │   ├── pricing.yml
+│   │   ├── service.yml
+│   │   ├── skill.yml
+│   │   ├── team.yml
+│   │   └── testimonial.yml
+│   └── fi
+│       ├── about.yml
+│       ├── banner.yml
+│       ├── contact.yml
+│       ├── cta.yml
+│       ├── feature.yml
+│       ├── funfacts.yml
+│       ├── portfolio.yml
+│       ├── pricing.yml
+│       ├── service.yml
+│       ├── skill.yml
+│       ├── team.yml
+│       └── testimonial.yml
+├── i18n
+│   ├── en.yaml
+│   └── fi.yaml
+├── layouts
+│   ├── 404.html
+│   ├── author
+│   │   └── single.html
+│   ├── _default
+│   │   ├── article.html
+│   │   ├── baseof.html
+│   │   ├── list.html
+│   │   └── single.html
+│   ├── index.html
+│   └── partials
+│       ├── about.html
+│       ├── banner.html
+│       ├── blog.html
+│       ├── contact.html
+│       ├── cta.html
+│       ├── feature.html
+│       ├── footer.html
+│       ├── funfacts.html
+│       ├── head.html
+│       ├── map.html
+│       ├── navigation.html
+│       ├── portfolio.html
+│       ├── post-share.html
+│       ├── preloader.html
+│       ├── pricing.html
+│       ├── service.html
+│       ├── skill.html
+│       ├── team.html
+│       └── testimonial.html
+├── public
+│   ├── 404.html
+│   ├── admin
+│   │   ├── config.yml
+│   │   └── index.html
+│   ├── author
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── john-doe
+│   │   │   └── index.html
+│   │   ├── mark-dinn
+│   │   │   └── index.html
+│   │   └── page
+│   │       └── 1
+│   │           └── index.html
+│   ├── blog
+│   │   ├── china-surveys-seabeds-where-naval-rivals-may-one-day-clash
+│   │   │   └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── installation
+│   │   │   └── index.html
+│   │   ├── page
+│   │   │   ├── 1
+│   │   │   │   └── index.html
+│   │   │   └── 2
+│   │   │       └── index.html
+│   │   ├── simple-blog-post-1
+│   │   │   └── index.html
+│   │   ├── simple-blog-post-2
+│   │   │   └── index.html
+│   │   ├── simple-blog-post-3
+│   │   │   └── index.html
+│   │   ├── simple-blog-post-4
+│   │   │   └── index.html
+│   │   ├── simple-blog-post-5
+│   │   │   └── index.html
+│   │   ├── simple-blog-post-6
+│   │   │   └── index.html
+│   │   ├── simple-blog-post-7
+│   │   │   └── index.html
+│   │   ├── simple-blog-post-8
+│   │   │   └── index.html
+│   │   └── welcome-to-supersitetest
+│   │       └── index.html
+│   ├── categories
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   └── page
+│   │       └── 1
+│   │           └── index.html
+│   ├── css
+│   │   ├── custom.min.css
+│   │   └── style.min.css
+│   ├── en
+│   │   ├── 404.html
+│   │   ├── author
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   ├── john-doe
+│   │   │   │   └── index.html
+│   │   │   ├── mark-dinn
+│   │   │   │   └── index.html
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── blog
+│   │   │   ├── china-surveys-seabeds-where-naval-rivals-may-one-day-clash
+│   │   │   │   └── index.html
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   ├── installation
+│   │   │   │   └── index.html
+│   │   │   ├── page
+│   │   │   │   ├── 1
+│   │   │   │   │   └── index.html
+│   │   │   │   └── 2
+│   │   │   │       └── index.html
+│   │   │   ├── simple-blog-post-1
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-2
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-3
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-4
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-5
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-6
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-7
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-8
+│   │   │   │   └── index.html
+│   │   │   └── welcome-to-supersitetest
+│   │   │       └── index.html
+│   │   ├── categories
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── sitemap.xml
+│   │   └── tags
+│   │       ├── index.html
+│   │       ├── index.xml
+│   │       └── page
+│   │           └── 1
+│   │               └── index.html
+│   ├── fi
+│   │   ├── 404.html
+│   │   ├── author
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   ├── john-doe
+│   │   │   │   └── index.html
+│   │   │   ├── mark-dinn
+│   │   │   │   └── index.html
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── blog
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   ├── installation
+│   │   │   │   └── index.html
+│   │   │   ├── page
+│   │   │   │   ├── 1
+│   │   │   │   │   └── index.html
+│   │   │   │   └── 2
+│   │   │   │       └── index.html
+│   │   │   ├── simple-blog-post-1
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-2
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-3
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-4
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-5
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-6
+│   │   │   │   └── index.html
+│   │   │   ├── simple-blog-post-7
+│   │   │   │   └── index.html
+│   │   │   └── simple-blog-post-8
+│   │   │       └── index.html
+│   │   ├── categories
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── sitemap.xml
+│   │   └── tags
+│   │       ├── index.html
+│   │       ├── index.xml
+│   │       └── page
+│   │           └── 1
+│   │               └── index.html
+│   ├── images
+│   │   ├── about
+│   │   │   ├── about-business-man.jpg
+│   │   │   ├── about-business-man.webp
+│   │   │   ├── company-growth.png
+│   │   │   └── company-growth.webp
+│   │   ├── backgrounds
+│   │   │   ├── bg-testimonial.jpg
+│   │   │   ├── bg-testimonial.webp
+│   │   │   ├── bg-white-wall.jpg
+│   │   │   ├── bg-white-wall.webp
+│   │   │   ├── hero-area.jpg
+│   │   │   └── hero-area.webp
+│   │   ├── blog
+│   │   │   ├── blog-post-1.jpg
+│   │   │   ├── blog-post-1.webp
+│   │   │   ├── blog-post-2.jpg
+│   │   │   ├── blog-post-2.webp
+│   │   │   ├── blog-post-3.jpg
+│   │   │   ├── blog-post-3.webp
+│   │   │   ├── meghna.jpg
+│   │   │   └── meghna.webp
+│   │   ├── client
+│   │   │   ├── client-1.jpg
+│   │   │   ├── client-1.webp
+│   │   │   ├── client-2.jpg
+│   │   │   └── client-2.webp
+│   │   ├── favicon.png
+│   │   ├── juuri-ai-logo.png
+│   │   ├── logo.png
+│   │   ├── marker.png
+│   │   ├── portfolio
+│   │   │   ├── portfolio-1.jpg
+│   │   │   ├── portfolio-1.webp
+│   │   │   ├── portfolio-2.jpg
+│   │   │   ├── portfolio-2.webp
+│   │   │   ├── portfolio-3.jpg
+│   │   │   ├── portfolio-3.webp
+│   │   │   ├── portfolio-4.jpg
+│   │   │   ├── portfolio-4.webp
+│   │   │   ├── portfolio-5.jpg
+│   │   │   ├── portfolio-5.webp
+│   │   │   ├── portfolio-6.jpg
+│   │   │   ├── portfolio-6.webp
+│   │   │   ├── portfolio-7.jpg
+│   │   │   ├── portfolio-7.webp
+│   │   │   ├── portfolio-8.jpg
+│   │   │   └── portfolio-8.webp
+│   │   └── team
+│   │       ├── team-1.jpg
+│   │       ├── team-1.webp
+│   │       ├── team-2.jpg
+│   │       ├── team-2.webp
+│   │       ├── team-3.jpg
+│   │       ├── team-3.webp
+│   │       ├── team-4.jpg
+│   │       └── team-4.webp
+│   ├── index.html
+│   ├── index.xml
+│   ├── js
+│   │   ├── script.min.363fb224b7abb86d771dc13d0f8d0e089b2297c4c2c2da67bd6015d4a8a34e19890a15afd507ffad9eaf9755663c00e8.js
+│   │   └── script.min.af325f2c280c8896bd633e31140c7749c0dedba1b86023e32603d1f96d0ddcb688e95a99c5bbaa124c2fc7f042e688f9.js
+│   ├── plugins
+│   │   ├── bootstrap
+│   │   │   ├── bootstrap.min.css
+│   │   │   └── bootstrap.min.js
+│   │   ├── google-map
+│   │   │   └── map.js
+│   │   ├── jquery
+│   │   │   └── jquery.min.js
+│   │   ├── lazy-load
+│   │   │   └── lozad.min.js
+│   │   ├── magnific-popup
+│   │   │   ├── jquery.magnific-popup.min.js
+│   │   │   └── magnific-popup.css
+│   │   ├── shuffle
+│   │   │   └── shuffle.min.js
+│   │   ├── slick
+│   │   │   ├── ajax-loader.gif
+│   │   │   ├── fonts
+│   │   │   │   ├── slick.eot
+│   │   │   │   ├── slick.svg
+│   │   │   │   ├── slick.ttf
+│   │   │   │   └── slick.woff
+│   │   │   ├── slick.css
+│   │   │   └── slick.min.js
+│   │   └── themify-icons
+│   │       ├── fonts
+│   │       │   ├── themify.eot
+│   │       │   ├── themify.svg
+│   │       │   ├── themify.ttf
+│   │       │   └── themify.woff
+│   │       └── themify-icons.css
+│   ├── sitemap.xml
+│   ├── tags
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   └── page
+│   │       └── 1
+│   │           └── index.html
+│   └── videos
+│       ├── aavideo.mp4
+│       ├── himmennetty.mp4
+│       └── Seq1_3.mp4
+├── static
+│   ├── admin
+│   │   ├── config.yml
+│   │   └── index.html
+│   ├── images
+│   │   ├── about
+│   │   │   ├── about-business-man.jpg
+│   │   │   ├── about-business-man.webp
+│   │   │   ├── company-growth.png
+│   │   │   └── company-growth.webp
+│   │   ├── backgrounds
+│   │   │   ├── bg-testimonial.jpg
+│   │   │   ├── bg-testimonial.webp
+│   │   │   ├── bg-white-wall.jpg
+│   │   │   ├── bg-white-wall.webp
+│   │   │   ├── hero-area.jpg
+│   │   │   └── hero-area.webp
+│   │   ├── blog
+│   │   │   ├── blog-post-1.jpg
+│   │   │   ├── blog-post-1.webp
+│   │   │   ├── blog-post-2.jpg
+│   │   │   ├── blog-post-2.webp
+│   │   │   ├── blog-post-3.jpg
+│   │   │   ├── blog-post-3.webp
+│   │   │   ├── meghna.jpg
+│   │   │   └── meghna.webp
+│   │   ├── client
+│   │   │   ├── client-1.jpg
+│   │   │   ├── client-1.webp
+│   │   │   ├── client-2.jpg
+│   │   │   └── client-2.webp
+│   │   ├── favicon.png
+│   │   ├── juuri-ai-logo.png
+│   │   ├── logo.png
+│   │   ├── marker.png
+│   │   ├── portfolio
+│   │   │   ├── portfolio-1.jpg
+│   │   │   ├── portfolio-1.webp
+│   │   │   ├── portfolio-2.jpg
+│   │   │   ├── portfolio-2.webp
+│   │   │   ├── portfolio-3.jpg
+│   │   │   ├── portfolio-3.webp
+│   │   │   ├── portfolio-4.jpg
+│   │   │   ├── portfolio-4.webp
+│   │   │   ├── portfolio-5.jpg
+│   │   │   ├── portfolio-5.webp
+│   │   │   ├── portfolio-6.jpg
+│   │   │   ├── portfolio-6.webp
+│   │   │   ├── portfolio-7.jpg
+│   │   │   ├── portfolio-7.webp
+│   │   │   ├── portfolio-8.jpg
+│   │   │   └── portfolio-8.webp
+│   │   └── team
+│   │       ├── team-1.jpg
+│   │       ├── team-1.webp
+│   │       ├── team-2.jpg
+│   │       ├── team-2.webp
+│   │       ├── team-3.jpg
+│   │       ├── team-3.webp
+│   │       ├── team-4.jpg
+│   │       └── team-4.webp
+│   ├── plugins
+│   │   ├── bootstrap
+│   │   │   ├── bootstrap.min.css
+│   │   │   └── bootstrap.min.js
+│   │   ├── google-map
+│   │   │   └── map.js
+│   │   ├── jquery
+│   │   │   └── jquery.min.js
+│   │   ├── lazy-load
+│   │   │   └── lozad.min.js
+│   │   ├── magnific-popup
+│   │   │   ├── jquery.magnific-popup.min.js
+│   │   │   └── magnific-popup.css
+│   │   ├── shuffle
+│   │   │   └── shuffle.min.js
+│   │   ├── slick
+│   │   │   ├── ajax-loader.gif
+│   │   │   ├── fonts
+│   │   │   │   ├── slick.eot
+│   │   │   │   ├── slick.svg
+│   │   │   │   ├── slick.ttf
+│   │   │   │   └── slick.woff
+│   │   │   ├── slick.css
+│   │   │   └── slick.min.js
+│   │   └── themify-icons
+│   │       ├── fonts
+│   │       │   ├── themify.eot
+│   │       │   ├── themify.svg
+│   │       │   ├── themify.ttf
+│   │       │   └── themify.woff
+│   │       └── themify-icons.css
+│   └── videos
+│       ├── aavideo.mp4
+│       ├── himmennetty.mp4
+│       └── Seq1_3.mp4
+├── themes
+└── tree.txt
+
+142 directories, 326 files

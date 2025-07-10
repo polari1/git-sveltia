@@ -158,8 +158,6 @@
                 href="http://localhost:1313/en/blog/simple-blog-post-7/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/blog/welcome-to-supersitetest/</loc>
-  </url><url>
     <loc>http://localhost:1313/en/author/</loc>
     <xhtml:link
                 rel="alternate"
