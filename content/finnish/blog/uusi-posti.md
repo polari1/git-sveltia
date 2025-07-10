@@ -1,8 +1,8 @@
 ---
 title: uusi posti
 date: 2025-07-10T23:13:00
-image_webp: ''
-image: ''
+image_webp: images/blog/blog-post-1.webp
+image_jpg: ''
 author: jepepe
 description: <sd dgfg<s <dfsg <zsgf
 ---
