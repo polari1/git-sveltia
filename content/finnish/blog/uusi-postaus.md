@@ -1,8 +1,8 @@
 ---
 title: Uusi postaus
 date: 2025-07-10T23:22:00
-image_webp: /images/about/about-business-man.webp
-image_jpg: /images/backgrounds/bg-testimonial.jpg
+image_webp: images/about/about-business-man.webp
+image_jpg: images/backgrounds/bg-testimonial.jpg
 author: mävaa
 description: Kritiikki Yhdysvaltain presidentti Donald Trumpia kohtaan venäläismediassa on kiristynyt hänen viimeaikaisten lausuntojensa myötä.
 ---
